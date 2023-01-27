@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #8400ff;
+}
+
+.wrapper {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mainDiv {
+    width: 800px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.mainDiv h2 {
+    color: red;
+    font-weight: 900;
+    font-size: 40px;
+}
