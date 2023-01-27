@@ -34,7 +34,7 @@ app.post("/form", (req, res) => {
 
 app.use("/", (req, res) => {
     res.render("index.ejs");
-})
+});
 
 app.listen(port, (err) => {
     if (err) {
@@ -42,4 +42,4 @@ app.listen(port, (err) => {
     } else {
         console.log(`Listening on Port: ${port}`);
     }
-})
+});
