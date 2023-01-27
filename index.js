@@ -31,9 +31,9 @@ app.post("/form", (req, res) => {
                     } else {
                         res.render("total.ejs");
                     }
-                })
+                });
             }
-        })
+        });
     }
 });
 
@@ -47,4 +47,4 @@ app.listen(port, (err) => {
     } else {
         console.log(`Listening on Port: ${port}`);
     }
-})
+});
